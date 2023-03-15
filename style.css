@@ -1,8 +1,22 @@
+body{
+	background-color: black;
+	color: white;
+}
 p{
-	text-aling: center;
+	text-align: center;
 }
 em strong{
 	color: #0000FF;
 }
 h1{ color: #FF00FF;
+}
+#banner {
+	width: 100%;
+}
+.items{
+	font-style: italic;
+	list-style: none;
+}
+#beneficios{
+	width: 100%;
 }
