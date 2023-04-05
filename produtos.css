@@ -1,5 +1,5 @@
 body{
-    background-color: blueviolet;
+    background-color: rgb(190, 175, 204);
 }
 nav li{
     display: inline-block;
@@ -7,13 +7,13 @@ nav li{
 }
 nav li a{
     text-decoration: none;
-    color: aqua;
+    color: rgb(27, 59, 59);
     font-size: 22px;
     font-weight: bold;
     text-transform: uppercase;
 }
 header{
-    background: #bbb;
+    background: #be1212;
     padding:20px o;
 }
 .content{
@@ -23,4 +23,17 @@ header{
 nav{
     float:right;
     margin-top:70px;
+}
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+}
+.produtos .preco{
+    font-size: 20px;
+    font-weight: bold;
+}
+.produtos .dexc{
+    font-size: 18px;
 }
