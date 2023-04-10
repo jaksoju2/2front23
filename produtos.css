@@ -12,6 +12,10 @@ nav li a{
     font-weight: bold;
     text-transform: uppercase;
 }
+nav a:hover {
+  color: rgba(255, 0, 0, 0.5);
+  text-decoration: underline;
+}
 header{
     background: #be1212;
     padding:20px o;
@@ -29,6 +33,14 @@ nav{
     text-align: center;
     width: 30%;
     vertical-align: top;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 0 1%;
+    padding: 30px 0;
+
+}
+.produtos li:hover{
+  border-color: rgb(255, 0, 0);
 }
 .produtos .preco{
     font-size: 20px;
