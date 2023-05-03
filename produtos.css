@@ -1,58 +1,84 @@
+*{
+    margin: 0;
+    padding: 0%;
+    list-style: none;
+    text-decoration: none;
+}
 body{
-    background-color: rgb(100,20,20);
+    background-color: rgb(26, 151, 46);
 }
 nav li{
-    display: inline-block;
-    padding: 10px;
+    display:    inline-block;
+    padding:15px
 }
-nav li a{
-    text-decoration: none;
-    color: rgb(27, 59, 59);
-    font-size: 22px;
+nav  a  {
+    text-decoration:none ;
+    color: rgb(14, 13, 13);
+    font-size:22px;
     font-weight: bold;
-    text-transform: uppercase;
+    text-transform:uppercase
 }
-nav a:hover {
-  color: rgba(255, 0, 0, 0.5);
-  text-decoration: underline;
+nav a:hover{
+    color: rgb(140, 100, 250);
+    text-decoration: underline;
 }
 header{
-    background-color: red;
-    padding:20px o;
+    background-color: rgb(93, 138, 20);
+    padding: 20px 0;
 }
 .content{
-    width: 940px;
+    width:940px;
     margin:0 auto;
+    padding: 20PX;
 }
 nav{
     float:right;
     margin-top:70px;
 }
-.produtos li{
-    display: inline-block;
+.produtos  li{
+    display:inline-block;
     text-align: center;
     width: 30%;
     vertical-align: top;
-    border: 2px solid blue;
-    border-radius: 10px;
+    border: 2px solid #e7e7e7;
+    border-radius:  10px;
     margin: 0 1%;
-    padding: 30px 0;
-
+    padding:  30px 0;
 }
 .produtos li:hover{
-  border-color: rgb(255, 0, 0);
+    transform: scale(1.05);
+    border-color:rgb(128, 109, 216); ;
+}
+.produtos h2{
+    font-size: 30px;
+    font-weight:bold;
 }
 .produtos .preco{
-    font-size: 20px;
+    font-size: 22px;
     font-weight: bold;
 }
-.produtos .dexc{
-    font-size: 18px;
+.produtos .desc{
+    font-size:18px;
 }
-footer {
-   text-align: center;
-   background: url("imagens/bn.jpg");
-   padding: 20px;
-   color: blue
+.content{
+    text-align: center;
+}
+.produtos ul{
+    width: 40px;
+}
+.produtos li:active {
+    border-color: rgb(24, 23, 23);
+}
+.produtos li:hover h2{
+    font-size: 35px;
+}
 
+footer{
+    text-align: center;
+    background-color:url("imagens/bg.jpg");
+    padding: 40px 0;
+    color: #e7e7e7;
+}
+main{
+    color: #e7e7e7;
 }
