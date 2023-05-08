@@ -5,16 +5,16 @@
 	text-decoration: none;
 }
 body{
-background: rgb(44, 216, 179);
-color: rgb(51, 85, 20);
+background: black;
+color: white;
 }
 p,centralizar{
 	text-align:	center;
 }
 em strong{
-	color:#cac722;
+	color:#b10b8d;
 }
-h1,h2{ color: #212421;
+h1,h2{ color: #2113e7;
 
 }
 

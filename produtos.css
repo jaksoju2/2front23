@@ -5,7 +5,7 @@
     text-decoration: none;
 }
 body{
-    background-color: rgb(26, 151, 46);
+    background-color: rgb(202, 24, 24);
 }
 nav li{
     display:    inline-block;
@@ -23,7 +23,7 @@ nav a:hover{
     text-decoration: underline;
 }
 header{
-    background-color: rgb(93, 138, 20);
+    background-color: rgb(247, 246, 246);
     padding: 20px 0;
 }
 .content{
@@ -61,7 +61,6 @@ nav{
     font-size:18px;
 }
 .content{
-    text-align: center;
 }
 .produtos ul{
     width: 40px;
@@ -75,10 +74,34 @@ nav{
 
 footer{
     text-align: center;
-    background-color:url("imagens/bg.jpg");
+    background:url("imagens/bg.jpg");
     padding: 40px 0;
     color: #e7e7e7;
 }
 main{
     color: #e7e7e7;
 }
+form{
+    margin:40px 0   q;
+}
+label{
+    font-size:25px
+}
+input{
+    padding: 10px 25px;
+    width: 50%;
+}
+button{
+    display: inline-block;
+    width:150px;
+    padding: 10px;
+}
+form label,formp{
+    display:block;
+    font-size: 20px;
+    margin: 10px 0 10px;
+}
+form label{
+    width: 200px;
+}
+
